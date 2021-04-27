@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ventanas_Semana3.Promedio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Páginas de Promedio" HorizontalTextAlignment="Center" TextColor="Black"/>
+
+            <Label TextColor="Blue">Seguimiento-1</Label>
+            <Entry x:Name="txtSeguimiento1"/>
+            <Label TextColor="Blue">Examen-1</Label>
+            <Entry x:Name="txtExamen1"/>
+            <Label  TextColor="Red">Nota 1</Label>
+            <Entry x:Name="txtNParcial1" IsReadOnly="True"/>
+
+            <Button Text ="Nota Parcial 1" x:Name="bntSumar" Clicked="bntSumar_Clicked"/>
+
+            <Label TextColor="Blue">Seguimiento-2</Label>
+            <Entry x:Name="txtSeguimiento2"/>
+            <Label TextColor="Blue">Examen-2</Label>
+            <Entry x:Name="txtExamen2"/>
+            <Label TextColor="Red">Nota 2 </Label>
+            <Entry x:Name="txtNParcial2" IsReadOnly="True"/>
+
+            <Button Text ="Nota Parcial 2" x:Name="bntSumar2" Clicked="bntSumar2_Clicked"/>
+
+            <Label  TextColor="Red">Nota Final</Label>
+            <Entry x:Name="txtFinal"/>
+            <Button Text ="Sumar3" x:Name="bntSumar3" Clicked="bntSumar3_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
